@@ -1,0 +1,63 @@
+[debug] [2020-12-17T23:22:29.548Z] ----------------------------------------------------------------------
+[debug] [2020-12-17T23:22:29.551Z] Command:       /usr/local/bin/firebase /home/swapnil/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase init
+[debug] [2020-12-17T23:22:29.552Z] CLI Version:   9.0.1
+[debug] [2020-12-17T23:22:29.552Z] Platform:      linux
+[debug] [2020-12-17T23:22:29.552Z] Node Version:  v12.18.1
+[debug] [2020-12-17T23:22:29.552Z] Time:          Fri Dec 18 2020 05:07:29 GMT+0545 (Nepal Time)
+[debug] [2020-12-17T23:22:29.553Z] ----------------------------------------------------------------------
+[debug] [2020-12-17T23:22:29.553Z] 
+[debug] [2020-12-17T23:22:29.560Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-12-17T23:22:29.560Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/swapnil/Desktop/amazon
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2020-12-17T23:22:37.224Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?pageSize=100  
+ 
+[debug] [2020-12-17T23:22:42.846Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 17 Dec 2020 23:22:42 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  Using project fir-dbb1f (amazon) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2020-12-17T23:23:28.933Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2020-12-17T23:23:33.188Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2020-12-17T23:23:33.192Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"8.2.1","browserURL":"https://www.gstatic.com/firebasejs/8.2.1/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/8.2.1/firebase.tgz"},"live":{"version":"8.2","browserURL":"https://www.gstatic.com/firebasejs/live/8.2/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/8.2/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/8.2.1/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js","auth":"https://www.gstatic.com/firebasejs/8.2.1/firebase-auth.js","database":"https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js","firestore":"https://www.gstatic.com/firebasejs/8.2.1/firebase-firestore.js","functions":"https://www.gstatic.com/firebasejs/8.2.1/firebase-functions.js","installations":"https://www.gstatic.com/firebasejs/8.2.1/firebase-installations.js","messaging":"https://www.gstatic.com/firebasejs/8.2.1/firebase-messaging.js","storage":"https://www.gstatic.com/firebasejs/8.2.1/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/8.2.1/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/8.2.1/firebase-remote-config.js","firestore.memory":"https://www.gstatic.com/firebasejs/8.2.1/firebase-firestore.memory.js"}}
+[info] ✔  Wrote build/index.html 
+[info] 
+[info] i  Detected a .git folder at /home/swapnil/Desktop/amazon 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=394148599&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2020-12-17T23:23:39.264Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
+ {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"4ee7893ca1ab3a996817","redirect_uri":"http://localhost:9005","state":"394148599"}
+[debug] [2020-12-17T23:23:43.661Z] <<< HTTP RESPONSE 200 {"date":"Thu, 17 Dec 2020 23:23:43 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","server":"GitHub.com","status":"200 OK","vary":"X-PJAX, Accept-Encoding, Accept, X-Requested-With, Accept-Encoding","etag":"W/\"f5b360cff6418cadff07cad572cc0207\"","cache-control":"max-age=0, private, must-revalidate","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"1; mode=block","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","expect-ct":"max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"","content-security-policy":"default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/socket-worker-5029ae85.js gist.github.com/socket-worker-5029ae85.js","x-github-request-id":"D698:0BFF:4D7D16:633214:5FDBE87F"}
+[debug] [2020-12-17T23:23:43.664Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2020-12-17T23:23:48.462Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2020-12-17T23:23:48.462Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"swapnilshinde123","id":66313776,"node_id":"MDQ6VXNlcjY2MzEzNzc2","avatar_url":"https://avatars2.githubusercontent.com/u/66313776?v=4","gravatar_id":"","url":"https://api.github.com/users/swapnilshinde123","html_url":"https://github.com/swapnilshinde123","followers_url":"https://api.github.com/users/swapnilshinde123/followers","following_url":"https://api.github.com/users/swapnilshinde123/following{/other_user}","gists_url":"https://api.github.com/users/swapnilshinde123/gists{/gist_id}","starred_url":"https://api.github.com/users/swapnilshinde123/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/swapnilshinde123/subscriptions","organizations_url":"https://api.github.com/users/swapnilshinde123/orgs","repos_url":"https://api.github.com/users/swapnilshinde123/repos","events_url":"https://api.github.com/users/swapnilshinde123/events{/privacy}","received_events_url":"https://api.github.com/users/swapnilshinde123/received_events","type":"User","site_admin":false,"name":"swapnil shinde","company":null,"blog":"","location":"pune","email":null,"hireable":null,"bio":"🎂βσяи σи: 1 ₦ØVɆ₥฿ⱤɆ🎂\r\n😊🇸ιмρℓɛ😊\r\n(•̪●)=/̵/’̿̿ ̿ ̿ ̿ ̿\r\n😎🇸мαят\r\nƪ(ړײ)‎ƪ\r\n😎🇸ιиɢℓɛ😎\r\n🙏L̸̸̸̸̸̸̸͌Īғɛ ís αℓℓ☝ αвσʋт Ħαρρʏëиìи₲🙌","twitter_username":null,"public_repos":1,"public_gists":0,"followers":1,"following":3,"created_at":"2020-06-02T12:47:04Z","updated_at":"2020-12-17T23:17:35Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":571,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] ✔  Success! Logged into GitHub as swapnilshinde123 
+[info] 
+[debug] [2020-12-17T23:24:58.849Z] >>> [apiv2][query] GET https://api.github.com/repos/amazon/actions/secrets/public-key type=owner
+[debug] [2020-12-17T23:25:03.483Z] <<< [apiv2][status] GET https://api.github.com/repos/amazon/actions/secrets/public-key 404
+[debug] [2020-12-17T23:25:03.483Z] <<< [apiv2][body] GET https://api.github.com/repos/amazon/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
